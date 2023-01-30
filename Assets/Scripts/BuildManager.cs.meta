@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 46d41f8e21ae6644d8e83e850f146206
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - standardTurretPrefab: {instanceID: 0}
+  - rocketLuncherPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
