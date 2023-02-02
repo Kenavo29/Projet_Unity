@@ -5,7 +5,7 @@ using UnityEngine;
 // on crée une classe ou on reference toutes les stats du joueur
 public class PlayerStats : MonoBehaviour
 {
-    public static int lives = 1;
+    public static int lives = 20;
     public static int money;
     public int startMoney = 400;
 

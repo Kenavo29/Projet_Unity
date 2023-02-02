@@ -32,6 +32,7 @@ public class Ennemy : MonoBehaviour
         if(waypointIndex >= Waypoints.points.Length - 1)
         {
             EndPath();
+            return;
         }
         waypointIndex++;
         target = Waypoints.points[waypointIndex];
@@ -56,5 +57,6 @@ public class Ennemy : MonoBehaviour
         PlayerStats.money += 6;
         GameObject deathEffect = (GameObject)Instantiate(effect, transform.position , Quaternion.identity);
         Destroy(gameObject);
+        
     }
 }

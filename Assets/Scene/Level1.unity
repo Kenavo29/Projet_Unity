@@ -3445,10 +3445,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92852dc3cfd19d41a9792eec87412eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 7881199837150637573, guid: 7f632f128fd69f943b48f9804c3ba52d, type: 3}
+  standartPrefab: {fileID: 7881199837150637573, guid: 7f632f128fd69f943b48f9804c3ba52d, type: 3}
+  HeavyPrefab: {fileID: 8509273465167168379, guid: 64d94e8f4a3b60348b79a6a4c8ea3ac7, type: 3}
+  FastPrefab: {fileID: 5594377184104488319, guid: bc82104f3b090964e972e2501e97305e, type: 3}
   spawnPoint: {fileID: 1330980724}
-  timeBetweenWaves: 20
+  timeBetweenWaves: 2
   waveCountdownTimer: {fileID: 1227373704}
+  waveIndex: 0
+  ennemiesStandarts: 01000000020000000300000005000000070000000a0000000d0000000f0000001100000014000000
+  ennemiesHeavy: 00000000000000000100000000000000030000000000000000000000040000000400000000000000
+  ennemiesFast: 0000000002000000000000000400000000000000000000000800000000000000000000000a000000
 --- !u!4 &492681236
 Transform:
   m_ObjectHideFlags: 0
@@ -3459,7 +3465,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
